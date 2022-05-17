@@ -30,6 +30,7 @@ const UseInsertionEffect = () => {
   });
 
   // i think that this useInsertionEffect is probably better than the usual useEffect since it will try to fetch data before the dom is finished
+  // but idk the more i think about this i think it will make the page rendered slower since it has to fetch the data and the DOM, so i think regular useEffect is better, change my mind~
   useInsertionEffect(() => {
     console.log("useInsertionEffect is executed");
     setTimeout(() => {
