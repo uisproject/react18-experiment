@@ -1,9 +1,11 @@
+import UseDeferredValue from "./UseDeferredValue";
 import UseTransition from "./UseTransition";
 
 const HookExperiment = () => {
   return (
     <>
-      <UseTransition />
+      {/* <UseTransition /> */}
+      <UseDeferredValue />
     </>
   );
 };

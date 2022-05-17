@@ -7,10 +7,10 @@ function App() {
       {/* Just comment if you want to experiment something else */}
 
       {/* Experimenting New React18 Hook  */}
-      {/* <HookExperiment /> */}
+      <HookExperiment />
 
       {/* useEffect problem */}
-      <UseEffectProblem />
+      {/* <UseEffectProblem /> */}
     </>
   );
 }
