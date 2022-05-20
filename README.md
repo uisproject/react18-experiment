@@ -7,7 +7,7 @@ This repo is used to study about the new behavior of react18 and some experiment
 Install my-project with npm
 
 ```bash
-  git clone git@github.com:uisproject/react18-experiment.git
+  git clone git@github.com:uisproject/react18_experiment.git
 ```
 
 Go to the project directory
