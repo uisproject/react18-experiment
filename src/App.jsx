@@ -2,6 +2,7 @@ import HookExperiment from "./HookExperiments/HookExperiment";
 import SuspenseComponent from "./SuspenseComponent/SuspenseComponent";
 import UseEffectProblem from "./UseEffectProblem/UseEffectProblem";
 import UseTransitionFetch from "./UseTransitionFetch/UseTransitionFetch";
+import NoRouterMainComponent from "./NoRouterExperiment/NoRouterMainComponent";
 
 function App() {
   return (
@@ -18,7 +19,10 @@ function App() {
       {/* <UseTransitionFetch /> */}
 
       {/* Testing how to use Suspense Component */}
-      <SuspenseComponent />
+      {/* <SuspenseComponent /> */}
+
+      {/* Creating pagination without any routing with switch-case */}
+      <NoRouterMainComponent />
     </>
   );
 }
