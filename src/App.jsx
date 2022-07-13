@@ -3,6 +3,7 @@ import SuspenseComponent from "./SuspenseComponent/SuspenseComponent";
 import UseEffectProblem from "./UseEffectProblem/UseEffectProblem";
 import UseTransitionFetch from "./UseTransitionFetch/UseTransitionFetch";
 import NoRouterMainComponent from "./NoRouterExperiment/NoRouterMainComponent";
+import ManipulateApp from "./ManipulateData/ManipulateApp";
 
 function App() {
   return (
@@ -22,7 +23,10 @@ function App() {
       {/* <SuspenseComponent /> */}
 
       {/* Creating pagination without any routing with switch-case */}
-      <NoRouterMainComponent />
+      {/* <NoRouterMainComponent /> */}
+
+      {/* Learn how to modify or manipulate data  */}
+      <ManipulateApp />
     </>
   );
 }
