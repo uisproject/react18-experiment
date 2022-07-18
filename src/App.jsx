@@ -4,6 +4,7 @@ import UseEffectProblem from "./UseEffectProblem/UseEffectProblem";
 import UseTransitionFetch from "./UseTransitionFetch/UseTransitionFetch";
 import NoRouterMainComponent from "./NoRouterExperiment/NoRouterMainComponent";
 import ManipulateApp from "./ManipulateData/ManipulateApp";
+import HigherOrderComponentApp from "./HigherOrderComponent/HigherOrderComponentApp";
 
 function App() {
   return (
@@ -26,7 +27,10 @@ function App() {
       {/* <NoRouterMainComponent /> */}
 
       {/* Learn how to modify or manipulate data  */}
-      <ManipulateApp />
+      {/* <ManipulateApp /> */}
+
+      {/* Learn how to use Higher Order Component */}
+      <HigherOrderComponentApp />
     </>
   );
 }
