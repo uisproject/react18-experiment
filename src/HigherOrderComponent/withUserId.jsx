@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { getDisplayName } from "recompose"; // use this to rename the component name
 
 const withUserId = (Component) => {
   const NewComponent = ({ userId, ...props }) => {
@@ -17,6 +18,9 @@ const withUserId = (Component) => {
 
     return <Component {...props} user={user} />;
   };
+
+  // renaming the new component into the original component name
+  NewComponent.displayName = `withUserId-${getDisplayName(Component)}`;
 
   return NewComponent;
 };
